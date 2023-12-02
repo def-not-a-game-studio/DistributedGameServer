@@ -1,0 +1,26 @@
+version: '3'
+
+services: 
+  database:
+    image: postgres
+    environment:
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: DistributedGameServer
+      POSTGRES_USER: postgres
+    ports:
+      - "5432:5432"
+    volumes:
+      - distributedgameserver:/var/lib/postgresql/data # make container data persistent
+  
+  pgadmin:
+    image: dpage/pgadmin4
+    environment:
+      PGADMIN_DEFAULT_EMAIL: "admin@mail.com"
+      PGADMIN_DEFAULT_PASSWORD: "admin"
+    ports:
+      - "5000:80"
+    depends_on: 
+      - database
+
+volumes:
+  distributedgameserver:

@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lobby", "Lobby\Lobby.csproj", "{1046F58F-3BDF-4C4E-9713-FC42BD156B5C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1046F58F-3BDF-4C4E-9713-FC42BD156B5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1046F58F-3BDF-4C4E-9713-FC42BD156B5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1046F58F-3BDF-4C4E-9713-FC42BD156B5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1046F58F-3BDF-4C4E-9713-FC42BD156B5C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
